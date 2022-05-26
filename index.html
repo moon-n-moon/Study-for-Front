@@ -5,16 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style></style>
+  <link rel="stylesheet" href="./css/main.css">
+  <style>
+    
+  </style>
 </head>
 <body>
-  <div data-fruit-name="apple">사과</div>
-  <div data-fruit-name="banana">바나나</div>
+  <div class="fruits">
+    <span>딸기</span>
+    <span>수박</span>
+    <div>오렌지</div>
+    <p>망고</p>
+    <h3>사과</h3>
+  </div>
 </body>
 </html>
-<script>
-  const els = document.querySelectorAll('div')
-  els.forEach(el => {
-    console.log(el.dataset.fruitName)
-  })
-</script>

@@ -1,0 +1,21 @@
+/* 
+.fruits span:first-child {
+  color: red;
+}
+
+.fruits h3:last-child {
+  color: red;
+} */
+
+/* 
+.fruits span:nth-child(2) {
+  color: green;
+}
+
+.fruits *:nth-child(3) {
+  color: mediumaquamarine;
+} */
+
+.fruits *:nth-child(2n) {
+  color: plum;
+}
