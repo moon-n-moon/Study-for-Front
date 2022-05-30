@@ -1,0 +1,40 @@
+  /* div {
+    width: auto;
+    height: auto;   div 요소는 width와 height가 auto로 지정 돼있다 
+    background-color: orange;
+  } */
+
+
+  /* span {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+  } */
+  
+  /* span 요소가 감싸고 있는 (내용)contents 만큼만 가로/세로 너비만큼만 사용 
+  인라인 요소이기 때문에 가로/세로 사이즈 구현 불가*/
+
+  /* .parent {
+    width: 300px;
+    height: 200px;
+    background-color: royalblue;
+  }
+
+  .child {
+    height: 100px;
+    background-color: orange;
+  } */
+/* .child가 클래스 명인 div 요소는 상속 때문에 width가 300px이다. */
+
+/* .parent {
+  width: 300px;
+  height: 200px;
+  background-color: royalblue;
+}
+
+.child {
+  min-width: 400px;
+  height: 100px;
+  background-color: orange;
+} */
+/* 상속때문에 width가 300px이 되었으나 min-width 때문에 400xp로 출력된다. */
