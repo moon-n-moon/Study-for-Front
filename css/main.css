@@ -1,14 +1,12 @@
-.parent {
-  width: 300px;
-  height: 200px;
-  background-color: red;
+body {
+  background-color: gray;
 }
 
-.child {
-  width: 100px;
-  height: inherit;
-  background-color: inherit;
-  position: fixed;
-  top: 100px;
-  right: 10px;
+
+div.hello {
+  color: green;
+}
+
+.hello {
+  color: red;
 }
