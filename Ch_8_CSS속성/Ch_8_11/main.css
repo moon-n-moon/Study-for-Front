@@ -1,0 +1,15 @@
+.parent {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  background-color: royalblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  opacity: 0.5;
+}
+
+/* 요소가 반투명해짐 0을 생략해도 됨 ex .5 */

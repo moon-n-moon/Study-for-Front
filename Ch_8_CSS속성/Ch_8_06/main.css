@@ -1,0 +1,40 @@
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.container .item:first-child {
+  border: 10px solid orange 
+} 
+
+.container .item:last-child {
+  border-style: 5px dashed palegreen;
+}
+
+
+.container .item:last-child {
+  border-style: 5px double palegreen;
+}
+
+
+.container .item:last-child {
+  border-style: 5px groove palegreen;
+}
+
+.container .item:last-child {
+  border-style: 5px ridge palegreen;
+}
+
+.container .item:last-child {
+  border-style: 5px inset palegreen;
+}
+
+.container .item:nth-child(1) {
+  border-color: transparent;
+}
+
+
+.container .item:nth-child(2) {
+  border: 2px solid red;
+}

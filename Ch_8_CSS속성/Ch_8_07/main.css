@@ -1,0 +1,14 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 20px;
+  border-radius: 20px;
+}
+/* border-radius는 해당 파일에선 사각형에 각 모서리에 정원을 만들고 그 정원의 반지름이 10px이
+되도록 한것이다. */
+
+div {
+  border-radius: 10px 0 10px 0;
+}
+/* 왼 쪽 모서리를 기준으로 시계방향으로 px을 각각 지정 가능 */

@@ -1,0 +1,59 @@
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 10px;
+}
+
+/* 위 코드에 margin 10px만큼의 외부 여백을 줌 */
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+
+/* margin은 각각의 방향으로 여백을 추가할 수 있음 */
+
+
+* {
+	margin: 10px 
+}
+
+/* 상하좌우 모두 외부여백을 10px로 지정 */
+
+* {
+  margin: 20px 10px 
+}
+
+/*상하에 20px 좌우에 10px 부여*/
+
+* {
+  margin: 20px 10px 5px 
+}
+
+/*상에 20px 좌우에 10px, 하에 5px 지정*/
+
+* {
+  margin: 10px 20px 30px 40px 
+}
+
+/* 상 10px 우 20px 하 30px 좌 40px 즉 상부터 시계방향으로 부여한다*/
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 4px solid red;
+  margin: -20px;
+}
+
+/* margin은 음수의 값도 줄 수 있다. */
