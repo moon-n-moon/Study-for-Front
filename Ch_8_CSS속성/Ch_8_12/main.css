@@ -1,14 +1,21 @@
-h1 { 
+/* h1 { 
   font-size: 24px;
-  font-weight: 700;  /* 글자 두껍게 */
-  font-style: italic;  /*글자 기울기*/
-  font-family: serif;  /* 글꼴 */
+  font-weight: 700;  글자 두껍게 
+  font-style: italic;  글자 기울기
+  font-family: serif;   글꼴 
 }
 p {
-  /* font-size: 16px; */
+  font-size: 16px;  <-- 주석
   width: 350px;
   padding: 10px;
   border: 1px solid;
   box-sizing: border-box;
   line-height: 1.4;  
-}
+} */
+
+
+
+/* .music {
+  font-size: 16px;
+  line-height: 4;
+} */
