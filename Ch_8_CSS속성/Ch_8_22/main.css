@@ -1,0 +1,33 @@
+body {
+  padding: 100px;
+}
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+/* .container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transform:perspective(500px) rotateX(45deg) rotateY(45deg);
+} */
+
+/* 
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transform: skew(45deg);
+} */
+
+
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transform: perspective(150px) rotateX(45deg)
+  translateX(100px);
+}

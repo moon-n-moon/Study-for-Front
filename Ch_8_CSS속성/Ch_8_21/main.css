@@ -1,0 +1,23 @@
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s .5s;
+
+}
+div:active {
+  width: 300px;
+  background-color: royalblue;
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: width 1s ;
+
+}
+div:active {
+  width: 300px;
+  background-color: royalblue;
+} */
