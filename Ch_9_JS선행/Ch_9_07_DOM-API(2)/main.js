@@ -33,3 +33,13 @@ boxEls.forEach(function (boxEl, index) {
     boxEl.classList.add(`order-${index + 1}`);
     console.log(index, boxEl);
 });
+
+const boxElx = document.querySelector('.box');
+
+// Getter, 값을 얻는 용도 (값을 얻는 용도의 API를 Getter라는 개념으로 부를 수 있다.)
+console.log(boxElx.textContent); // Box!!
+
+// Setter, 값을 지정하는 용도 (값을 지정하는 용도의 API를 Setter라는 개념으로 부를 수 있다.)
+boxElx.textContent = 'HEROPY?!';
+console.log(boxElx.textContent); // HEROPY?!
+
